@@ -10,7 +10,7 @@ class MainWindow(QMainWindow):
         self.label = QLabel("Hello World", self)
         self.initUI()
 
-
+ #hey
     def initUI(self):
         
         self.button.setGeometry(150, 200, 200, 100)
