@@ -10,7 +10,7 @@ class MainWindow(QMainWindow):
         self.label = QLabel("Hello World", self)
         self.initUI()
 
- #hey
+ 
     def initUI(self):
         
         self.button.setGeometry(150, 200, 200, 100)
@@ -25,7 +25,7 @@ class MainWindow(QMainWindow):
         print("Button Clicked!")
         self.button.setText("Clicked!")
         self.button.setDisabled(True)
-        self.label.setText("Bye world")
+        self.label.setText("No world")
        
 
 
